@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Trabalho Prático 1 - IGTI</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="selector">
+        <table>
+          <tr>
+            <td>(R) Vermelho:</td>
+            <td>
+              <input type="range" id="range_red" min="0" max="255" value="0" />
+            </td>
+            <td>
+              <input type="text" id="red_value" disabled="true" value="0" />
+            </td>
+          </tr>
+          <tr>
+            <td>(G) Verde:</td>
+            <td>
+              <input
+                type="range"
+                id="range_green"
+                min="0"
+                max="255"
+                value="0"
+              />
+            </td>
+            <td>
+              <input type="text" id="green_value" disabled="true" value="0" />
+            </td>
+          </tr>
+          <tr>
+            <td>(B) Azul:</td>
+            <td>
+              <input type="range" id="range_blue" min="0" max="255" value="0" />
+            </td>
+            <td>
+              <input type="text" id="blue_value" disabled="true" value="0" />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="result-color"></div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
